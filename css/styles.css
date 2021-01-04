@@ -28,7 +28,7 @@ section {
   float: left;
   height: 250px;
   margin: 1%;
-  overflow: auto;
+  overflow: hidden;
   position: relative;
 }
 p {
