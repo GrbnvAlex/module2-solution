@@ -20,6 +20,7 @@ h2 {
 }
 div {
   margin: 1%;
+  position: relative;
 }
 section {
   background-color: #AAAAAA;
@@ -55,7 +56,7 @@ p {
 }
 
 /********** Desktop **********/
-@media min-width: 992px {
+@media (min-width: 992px) {
   .desktop {
     width: 31%;
   }
@@ -72,7 +73,7 @@ p {
 }
 
 /********** Phone **********/
-@media max-width: 767px {
+@media (max-width: 767px) {
   .tablet {
     width: 98%;
   }
